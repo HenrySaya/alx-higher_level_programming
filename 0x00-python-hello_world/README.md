@@ -3,3 +3,6 @@ This repository contains files and scripts that perform particular task and with
 
 0-run
 This is a shell script taht is able to run a python script
+
+1-run_inline
+Amnother shell script to run python code that implemented the f-string syntax
