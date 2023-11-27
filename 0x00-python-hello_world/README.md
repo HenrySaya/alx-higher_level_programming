@@ -14,3 +14,6 @@ Used the print function.
 3-print_number.py
 This is a python script that prints the integer stored in the variable named integer, followed by battery street and a newline.
 For this task i implemented the f-strings
+
+4-print_float.py
+Thiks is a script that prints the float number stored in the variable number with precision of 2 digits
