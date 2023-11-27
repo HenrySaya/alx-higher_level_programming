@@ -6,3 +6,8 @@ This is a shell script taht is able to run a python script
 
 1-run_inline
 Amnother shell script to run python code that implemented the f-string syntax
+
+2-print.py
+This is a python script that prints an exact statement followed by a newline
+Used the print function.
+
