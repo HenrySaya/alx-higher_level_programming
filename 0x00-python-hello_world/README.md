@@ -23,3 +23,6 @@ Pythone script that will print a string 3 times followed by its first nine chara
 
 6-concat.py
 This is a python script that prints a string but we use concatination of string using the + operator to join the two strings
+
+7-edges.py
+This is a python scrpt that executes command with predefined commands from task like first 3 letters of strin and so on
