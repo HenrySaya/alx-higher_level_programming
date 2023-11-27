@@ -16,4 +16,7 @@ This is a python script that prints the integer stored in the variable named int
 For this task i implemented the f-strings
 
 4-print_float.py
-Thiks is a script that prints the float number stored in the variable number with precision of 2 digits
+This is a script that prints the float number stored in the variable number with precision of 2 digits
+
+5-print_string.py
+Pythone script that will print a string 3 times followed by its first nine characters
