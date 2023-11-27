@@ -20,3 +20,6 @@ This is a script that prints the float number stored in the variable number with
 
 5-print_string.py
 Pythone script that will print a string 3 times followed by its first nine characters
+
+6-concat.py
+This is a python script that prints a string but we use concatination of string using the + operator to join the two strings
