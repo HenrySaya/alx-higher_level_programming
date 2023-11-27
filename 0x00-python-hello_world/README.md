@@ -11,3 +11,6 @@ Amnother shell script to run python code that implemented the f-string syntax
 This is a python script that prints an exact statement followed by a newline
 Used the print function.
 
+3-print_number.py
+This is a python script that prints the integer stored in the variable named integer, followed by battery street and a newline.
+For this task i implemented the f-strings
