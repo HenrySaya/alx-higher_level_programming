@@ -46,3 +46,10 @@ This is a function that adds two integers and returns the result
 
 11-pow.py
 This is a function that computes a to the power of b
+
+12-fizzbuzz.py
+This is a function that prints numbers from 1 to 100(included) in tese ways:
+1) multiples of 3 prints fizz eg 3
+2) multiples of 5 prints buzz eg 5
+3) multiples of both 3 and 5 prints fizzbuzz eg 15
+4) if none of the above just prints the number eg 4
