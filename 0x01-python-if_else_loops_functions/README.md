@@ -43,3 +43,6 @@ Tested against lasty.py in the test files
 
 10-add.py
 This is a function that adds two integers and returns the result
+
+11-pow.py
+This is a function that computes a to the power of b
