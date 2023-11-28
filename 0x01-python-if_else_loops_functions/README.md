@@ -41,3 +41,5 @@ This is a function that prints a string in uppercase followed by a newline
 This is a function that prints the last diggit of a number.
 Tested against lasty.py in the test files
 
+10-add.py
+This is a function that adds two integers and returns the result
