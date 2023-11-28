@@ -6,3 +6,8 @@ Below are the files and also a short description on them to get an insiht of wha
 0-positive_or_negative.py
 This file is a python script that assigns a random number to variable number each time it is executed
 The random number is then passed through the conditionals(if statements) , whereby if the number is greater than 0 the program outputs nmber is positve as well as the remaining 3 conditionals that are structured in the if... elif...else structure
+
+1-last_digit.py
+This is another python scriipt whereby a random number will be assigned to our variable number each time it is executed
+This output of this script is a string followed by the last digit of the number followed by the number.
+Now if the last difit is greater than 5 for example, outputs the string along with statement and is greater than 5 as well as other conditionals i have implemented on tthe if statements
