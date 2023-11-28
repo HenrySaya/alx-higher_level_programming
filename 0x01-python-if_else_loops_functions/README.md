@@ -11,3 +11,6 @@ The random number is then passed through the conditionals(if statements) , where
 This is another python scriipt whereby a random number will be assigned to our variable number each time it is executed
 This output of this script is a string followed by the last digit of the number followed by the number.
 Now if the last difit is greater than 5 for example, outputs the string along with statement and is greater than 5 as well as other conditionals i have implemented on tthe if statements
+
+2-print_alphabet.py
+In this python script by using for loop, the program prints ASCII alphabet in lowercase and not followed by a newline
