@@ -33,3 +33,6 @@ This is a program that prints all the possible combination of two digits whereby
 This is a function (islower()) that checks for lowercase letters
 Returns true if c is lowercase and false otherwise
 Used main.py to test the function
+
+8-uppercase.py
+This is a function that prints a string in uppercase followed by a newline
