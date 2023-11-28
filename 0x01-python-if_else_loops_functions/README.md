@@ -28,3 +28,8 @@ Rest of the numbers are separated by , followed by space and all done in one for
 
 6-print_comb3.py
 This is a program that prints all the possible combination of two digits whereby 01 and 10 are considered same combination thus our combination is unique in that sense
+
+7-islower.py
+This is a function (islower()) that checks for lowercase letters
+Returns true if c is lowercase and false otherwise
+Used main.py to test the function
