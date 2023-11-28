@@ -20,3 +20,8 @@ This pythpn script works the same way as the above scrpt only that in here we wo
 
 4-print_hexa.py
 This is a program that prints all numbers from 0 to 98 and their equivalent hexadecimal values
+
+5-print_comb2.py
+this is a program that prints numbers from 0 to 99 in ascending order with tw0 digits.
+last number is followed by a newline
+Rest of the numbers are separated by , followed by space and all done in one for loop with two print statements with string.format
