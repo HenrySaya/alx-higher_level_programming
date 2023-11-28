@@ -25,3 +25,6 @@ This is a program that prints all numbers from 0 to 98 and their equivalent hexa
 this is a program that prints numbers from 0 to 99 in ascending order with tw0 digits.
 last number is followed by a newline
 Rest of the numbers are separated by , followed by space and all done in one for loop with two print statements with string.format
+
+6-print_comb3.py
+This is a program that prints all the possible combination of two digits whereby 01 and 10 are considered same combination thus our combination is unique in that sense
