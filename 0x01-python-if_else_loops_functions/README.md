@@ -14,3 +14,6 @@ Now if the last difit is greater than 5 for example, outputs the string along wi
 
 2-print_alphabet.py
 In this python script by using for loop, the program prints ASCII alphabet in lowercase and not followed by a newline
+
+3-print_alphabt.py
+This pythpn script works the same way as the above scrpt only that in here we wont print out characters e and q
