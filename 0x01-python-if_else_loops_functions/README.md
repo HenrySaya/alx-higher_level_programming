@@ -36,3 +36,8 @@ Used main.py to test the function
 
 8-uppercase.py
 This is a function that prints a string in uppercase followed by a newline
+
+9-print_last_digit.py
+This is a function that prints the last diggit of a number.
+Tested against lasty.py in the test files
+
