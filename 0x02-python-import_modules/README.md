@@ -12,3 +12,6 @@ This is a program that prints the result of the addition of all arguments
 
 4-hidden_discovery.py
 This is  program that prints all the names defined by the compiled module hidden_4.pyc 
+
+5-variable_load.py
+This is a program that imports the variable a from the file variable_load_5.py and prints its value.
