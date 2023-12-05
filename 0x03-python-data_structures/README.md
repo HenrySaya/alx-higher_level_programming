@@ -15,3 +15,6 @@ This is a function that prints all integers of a list in reverse order and forma
 
 ## 4-new_in_list.py
 This is a function that replaces an element in a list at a specific position without modifying the original list
+
+## 5-no_c.py
+This is a function that removes all characters c and C from a string.GSafe to say you cant C me now!
