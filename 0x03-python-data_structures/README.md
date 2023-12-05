@@ -10,3 +10,5 @@ If the index(idx) is negative the function returns None and if idx is out of ran
 This is a function that replaces an element of a list at a specific position like in single linked lists in C
 If idx is negative the function does not do any modification but return the original list and if the index is ot of range it does the same 
 
+## 3-print_reversed_list_integer.py
+This is a function that prints all integers of a list in reverse order and format is one integer per line and no casting into integers plus I used the str.format()
