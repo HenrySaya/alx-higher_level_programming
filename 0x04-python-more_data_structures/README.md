@@ -9,3 +9,7 @@ Tested it with test1.py file that is in a directory named testinputs.
 This function is built in a way that it will search for an element in a given list and check if the value corresponds with what is being searched for.
 After the search is matched it will replace this elemnt with the specified replacement element.
 my_list is the initial list as seen in 2test.py, search is the element to be replaced amd replace is the new element.
+
+2_uniq_add.py
+This is a function that will add all unique integers in a list that is only once for each digit no repetition of sum of a similar integer.
+This I did by passing the set() function against my_list so that when sum is carried out in the function only uniwque entries are summed up.
