@@ -13,3 +13,6 @@ my_list is the initial list as seen in 2test.py, search is the element to be rep
 2_uniq_add.py
 This is a function that will add all unique integers in a list that is only once for each digit no repetition of sum of a similar integer.
 This I did by passing the set() function against my_list so that when sum is carried out in the function only uniwque entries are summed up.
+
+3-common_elements.py
+This is a function that returns elements in two sets
