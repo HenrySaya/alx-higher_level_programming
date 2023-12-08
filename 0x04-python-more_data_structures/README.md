@@ -16,3 +16,14 @@ This I did by passing the set() function against my_list so that when sum is car
 
 3-common_elements.py
 This is a function that returns elements in two sets
+
+4-only_diff_elements.py
+this is a function that returns a set of all elements present in only one set
+Basically find the difference of et from our required set
+
+5-number_keys.py
+This is a function that will return the total number of keys in a dictionary.
+Basically applies list() to retrieve keys from values in the dictionary
+
+6-print_sorted_dictionary.py
+This is a function that prints a dictionary by ordered keys
