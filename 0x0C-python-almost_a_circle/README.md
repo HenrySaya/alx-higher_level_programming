@@ -1,15 +1,19 @@
 0x0C-python-almost_a_circle
 =================================================
 
-#Python - almost a circle
+# Python - almost a circle
 
 In this particular projectI reviewed everythin about Python.This was a great project that addressed everythin in Python and thus sharpening my skills.In conjuction with previous knowledge of the Python concepts I had a better understandin of Serialization/Deserialization which all coupled up with application of args and kwargs. 
 The project required test driven development and implemented unittesting on the various scripts and packages.I had much fun contributing to this project.
 
-##Tasks :
+## Tests :heavy_check_mark:
+* [tests]: Folder of test files. Includes unittests.
+
+## Tasks :page_with_curl:
 * **1. Base class**
- * [__init__.py]: This is an empty file and with this file the folder becomes a Python package
- * [base.py] : Python program with private class attribute __nb_objects and a class constructor. This class is the base of all other classes in the project.
+ * [__init__.py](./models/__init__.py): This is an empty file and with this file the folder becomes a Python package
+ * [base.py](./models/base.py) : Python program with private class attribute __nb_objects and a class constructor. This class is the base of all other classes in the project.
+ * [1-main.py](./1-main.py): This is a sample of tests to run our scripts
  * Goal: Manage id attribute in all my future classes and to avoid duplicating the same code  amd by extension some bugs
 
 * **2. First Rectangle
