@@ -11,10 +11,25 @@ The project required test driven development and implemented unittesting on the 
 
 ## Tasks :page_with_curl:
 * **1. Base class**
- * [__init__.py](./models/__init__.py): This is an empty file and with this file the folder becomes a Python package
- * [base.py](./models/base.py) : Python program with private class attribute __nb_objects and a class constructor. This class is the base of all other classes in the project.
- * [1-main.py](./1-main.py): This is a sample of tests to run our scripts
- * Goal: Manage id attribute in all my future classes and to avoid duplicating the same code  amd by extension some bugs
+  * [__init__.py](./models/__init__.py): This is an empty file and with this file the folder becomes a Python package
+  * [base.py](./models/base.py) : Python program with private class attribute __nb_objects and a class constructor. This class is the base of all other classes in the project.
+  * [1-main.py](./1-main.py): This is a sample of tests to run our scripts
+  * Goal: Manage id attribute in all my future classes and to avoid duplicating the same code  amd by extension some bugs
 
-* **2. First Rectangle
- * [rectangle.py]: This is the class Rectangle that inherits from Base. It contains private instance attributes with its own public getter and setter methods. I used private attributes with getter/setter and not public attributes because I wanted to protect attributes of our class.With a setter I (you too) am able to validate what a user is trying to assigne to a variable.So after, in the class I can 'trust' these attributes
+* **2. First Rectangle**
+  * [rectangle.py](./models/rectangle.py): Python class that defines a rectangle.The class `class Rectangle(Base):` Inherits  from [base.py](./models/base.py) with:
+	* Private instance attribute `width`
+	* Property getter `def width(self):` to get `width`
+	* Property setter `def width(self, value):` to set `width`
+        * Private instance attribute `height`
+        * Property getter `def height(self):` to get `height`
+        * Property setter `def height(self, value):` to set `height`
+        * Private instance attribute `x`
+        * Property getter `def x(self):` to get `x`
+        * Property setter `def x(self, value):` to set `x`
+        * Private instance attribute `y`
+        * Property getter `def y(self):` to get `y`
+        * Property setter `def y(self, value):` to set `y`
+	* Instantiation with optional `x`, `y`, and `id`: `def __init__(self, width, height, x=0, y=0, id=None):`
+	* Goal: Use private attributes with getter/setter methods to protext attributes of our class. With a setter you are able to validate what a developer is trying to assign to a variable. So after you can ``trust`` these attributes
+  * [2-main.py](./2-main.py): This includes inputs that test the class and return the id
