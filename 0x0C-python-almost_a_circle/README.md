@@ -32,4 +32,10 @@ The project required test driven development and implemented unittesting on the 
         * Property setter `def y(self, value):` to set `y`
 	* Instantiation with optional `x`, `y`, and `id`: `def __init__(self, width, height, x=0, y=0, id=None):`
 	* Goal: Use private attributes with getter/setter methods to protext attributes of our class. With a setter you are able to validate what a developer is trying to assign to a variable. So after you can ``trust`` these attributes
-  * [2-main.py](./2-main.py): This includes inputs that test the class and return the id
+  * [2-main.py](./2-main.py): This includes inputs that test the class and return the id.
+
+* **3. Validate attributes**
+  * [rectangle.py](.models/rectangle.py): Python class that defines a rectangle. An update to the script for attribute validation whereby:
+	* If either of the inputs(`width`, `height`, `x`, and `y`) is not an integer, a `TypeError` is raised with the message `<name of the attribute		> must be an integer`
+	* if either `width` or `height` is under or equals 0, a `ValueError` is raised with the message `<name of the attribute> must be > 0` Example 		`width must be > 0`
+	* if either `x` or `y` is under 0, a `ValueError` is raised with the message `<name of the attribute> must be >= 0` must be >= 0`
