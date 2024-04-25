@@ -44,3 +44,8 @@ The project required test driven development and implemented unittesting on the 
 * **4. Area first**
   * [rectangle.py](./models/rectangle.py): Update the class `Rectangle` by adding the public method `def area(self):` that returns the area of the `Rectangle` instance
   * [4-main.py](./4-main.py): Short script that invokes public method `def area(self):` after feeding it with the inputs of the `width` and `height` attributes.
+
+* **5. Display #0**
+  * [rectangle.py](./models/rectangle.py): Update the class `Rectangle` by:
+	* Adding public method `def display(self):` that prints in stdout the `Rectangle` instance with the character `#`
+  * 5-main.py[](./5-main.py): test script for `rectangle.py`.
