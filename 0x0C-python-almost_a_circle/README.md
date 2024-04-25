@@ -48,4 +48,10 @@ The project required test driven development and implemented unittesting on the 
 * **5. Display #0**
   * [rectangle.py](./models/rectangle.py): Update the class `Rectangle` by:
 	* Adding public method `def display(self):` that prints in stdout the `Rectangle` instance with the character `#`
-  * 5-main.py[](./5-main.py): test script for `rectangle.py`.
+  * [5-main.py](./5-main.py): test script for `rectangle.py`.
+
+* **6. __str__**
+  * [rectangle.py](./models/rectangle.py): Update the class `Rectangle` by:
+        * Overriding the `__str__` method to return `[Rectangle] (<id>) <x>/<y> - <width>/<height>`
+  * [6-main.py](./6-main.py): test script for `rectangle.py`.
+
