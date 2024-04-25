@@ -36,6 +36,7 @@ The project required test driven development and implemented unittesting on the 
 
 * **3. Validate attributes**
   * [rectangle.py](.models/rectangle.py): Python class that defines a rectangle. An update to the script for attribute validation whereby:
-	* If either of the inputs(`width`, `height`, `x`, and `y`) is not an integer, a `TypeError` is raised with the message `<name of the attribute		> must be an integer`
-	* if either `width` or `height` is under or equals 0, a `ValueError` is raised with the message `<name of the attribute> must be > 0` Example 		`width must be > 0`
+	* If either of the inputs(`width`, `height`, `x`, and `y`) is not an integer, a `TypeError` is raised with the message `<name of the attribute> must be an integer`
+	* if either `width` or `height` is under or equals 0, a `ValueError` is raised with the message `<name of the attribute> must be > 0` Example `width must be > 0`
 	* if either `x` or `y` is under 0, a `ValueError` is raised with the message `<name of the attribute> must be >= 0` must be >= 0`
+  * [3-main.py](./3-main.py): This file verifies the validation by giving inputs and testing our class.
