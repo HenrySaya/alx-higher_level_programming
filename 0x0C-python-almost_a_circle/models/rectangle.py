@@ -84,8 +84,11 @@ class Rectangle(Base):
         """
         Prints the size of rectangle using # symbol
         """
+        for j in range(self.y):
+            print()
+
         for i in range(self.__height):
-            print("#" * self.__width)
+            print(" " * self.x + "#" * self.__width)
 
     def __str__(self):
         """Returns the print() and str() representation of the rectangle"""
